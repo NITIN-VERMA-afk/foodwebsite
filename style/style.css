@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@400;700&family=Roboto:ital,wght@1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:    'Poppins', sans-serif;
+   
+    
+
+}
+body{
+    background: rgba(0,0,0,0.7)url(/images/background-4.jfif);
+    background-size: cover;
+    background-blend-mode: darken;
+  
+   
+   
+
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+
+}
+
+.nav-list{
+    display:flex ;
+    width: 50%;
+   
+    align-items: center;
+    
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 34px;
+}
+
+
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+
+}
+.right-nav{
+
+    width: 50%;
+    text-align: right;
+    padding: 20px;
+    
+
+    
+}
+.logo{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+.logo img{
+    width: 33px;
+    border: 2px solid black;
+    border-radius: 50%;
+    
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: gray;
+
+
+
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+    
+  
+
+}
+
+    
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.firsthalf{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-big{
+font-size: 50px;
+}
+.text-small{
+    font-size: 25px;
+
+
+}
+.img-2{
+    width: 390px;
+}
+
+.btn{
+    padding: 3px 10px;
+    vertical-align: middle;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.section-2{
+  
+     
+   
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+    color: aliceblue;
+}
+.section-3{
+    display: flex;
+   
+    justify-content: right;
+    gap: 10px;
+  
+    color: aliceblue;
+}
+.section-4{
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+    color: aliceblue;
+}
+.section-5{
+    display: flex;
+  
+    justify-content: right;
+    gap: 10px;
+  
+    color: aliceblue;
+
+}
+.pulao{
+    width: 250px;
+    height: 250px;
+}
+.footer{
+    display: flex;
+    gap: 40px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+  
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+
+
+  
+   
+}
+.footer p{
+    font-size:xx-small;
+}
+.footer contactus{
+    cursor: pointer;
+}
+.feedback{
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.content-1{
+  text-align: center;
+  position: relative;
+  left:30%;
+  
+}
+.section-2{
+    display: flex;
+    
+
+}
+.background{
+    background: rgba(0,0,0,0.7)url( /images/bg-1.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+
+
+
+
+
+
+
+
+

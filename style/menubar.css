@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.col-1{
+  
+    height:100%;
+    width: 300px;
+    color: white;
+    
+}
+.col-2{
+   
+    height: 100%;
+    width: 300px;
+    color: white;
+
+}
+.col-3{
+    
+    height: 100%;
+    width: 300px;
+    color: white;
+}
+.rows{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 200px;
+    
+}
+.background{
+    background: rgba(0,0,0,0.7)url(/images/menubarbackground.jfif);
+    background-size: cover;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+    .container img{
+        height: 200px;
+        width: 200px;
+        
+    }
+    .card:hover{
+        transform: scale(1.1);
+
+    }
+    .item-8{
+        margin-top: 50px;
+    }
